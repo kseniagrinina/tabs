@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>FarCry 4</title>
+</head>
+
+<body>
+    <main>
+        <div class="modal">
+            <ul class="tabs">
+                <li class="tab-link current" data-tab="info-tab">
+                    <svg class="tab-link__icon">
+                        <use xlink:href="sprite.svg#tooltip">
+                        </use>
+                    </svg>
+                    information
+                </li>
+                <li class="tab-link" data-tab="ratings-tab">
+                    <svg class="tab-link__icon">
+                        <use xlink:href="sprite.svg#card">
+                        </use>
+                    </svg>
+                    ratings info
+                </li>
+                <li class="tab-link" data-tab="buy-tab">
+                    <svg class="tab-link__icon">
+                        <use xlink:href="sprite.svg#basket">
+                        </use>
+                    </svg>
+                    where to buy
+                </li>
+            </ul>
+
+            <div id="info-tab" class="tab-content current">
+                <div class="card">
+                    <div class="card__side">
+                        <img src="img/poster.png" class="card__img" alt="Farcry4 poster">
+                        <div class="rating">
+                            <svg class="rating__icon star-yellow">
+                                <use xlink:href="sprite.svg#star">
+                                </use>
+                            </svg>
+                            <svg class="rating__icon star-yellow">
+                                <use xlink:href="sprite.svg#star">
+                                </use>
+                            </svg>
+                            <svg class="rating__icon star-yellow">
+                                <use xlink:href="sprite.svg#star">
+                                </use>
+                            </svg>
+                            <svg class="rating__icon star-yellow">
+                                <use xlink:href="sprite.svg#star">
+                                </use>
+                            </svg>
+                            <svg class="rating__icon star-gray">
+                                <use xlink:href="sprite.svg#star">
+                                </use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card__body">
+                        <p class="card__rating">7.8</p>
+                        <h1 class="card__title">
+                            FarCry 4
+                        </h1>
+                        <p class="card__subtitle">
+                            First Released Nov 17, 2014
+                        </p>
+
+
+                        <p class="card__text">
+                            In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region of
+                            the Hima
+                            layas struggling under the regime of a despotic self-appointed king.
+                        </p>
+                        <div class="card__footer">
+                            <div class="card__pricing">
+                                <p class="card__label">20% OFF!</p>
+                                <p class="card__price">$59.96</p>
+                            </div>
+                            <button class="buy-btn" type="button">
+                                BUY IT NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="ratings-tab" class="tab-content">
+                <p class="content-coming">
+                    Coming soon ...
+                </p>
+
+            </div>
+            <div id="buy-tab" class="tab-content">
+                <p class="content-coming">
+                    Coming soon ...
+                </p>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
